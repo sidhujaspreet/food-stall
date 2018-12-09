@@ -1,4 +1,4 @@
-.navbar {
+nav {
   padding: 1.2rem;
   background-color: antiquewhite;
   margin-bottom: 1rem;
@@ -7,7 +7,15 @@
     color: black;
   }
   
-  .col-6 {
+  navbar-header {
     text-align: center;
+  }
+  
+  ul {
+    text-align: center;
+    
+    li {
+      display: inline;
+    }
   }
 }

@@ -4,13 +4,18 @@ import './NavBar.scss';
 
 const navBar = () => {
   return (
-      <nav className="navbar navbar-inverse">
+      <nav className="navbar navbar-expand-sm bg-light">
         <div className="container-fluid row">
-          <div className="navbar-header col-6">
+          <div className="navbar-header col-2">
             <Link to="/">Home</Link>
           </div>
-          <ul className="nav navbar-nav col-6">
-            <li><Link to="/surprise">Surprise Me!!!</Link></li>
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link className="nav-link" to="/test">Test</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/surprise">Surprise Me!!!</Link>
+            </li>
           </ul>
         </div>
       </nav>
